@@ -1,4 +1,5 @@
 Application: https://sneha-kv.github.io/Sneha-Portfolio/
+![image](https://user-images.githubusercontent.com/62788140/133170278-575dc308-ce8f-4736-97d1-632d3241677f.png)
 
 A simple and responsive portfolio website built using HTML, SASS.
 
