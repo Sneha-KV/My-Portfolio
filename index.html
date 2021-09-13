@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sneha Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="container-all">
+    <div class="welcome" id="home">
+      <button class="menu-button">
+        <svg class="hamburger" x="0px" y="0px"
+            viewBox="0 0 30 17" height="17" width="30" >
+              <g transform="translate(-15 -15)">
+                <rect x="15" y="16" class="st0" width="30" height="2"/>
+              </g>
+              <g transform="translate(-15 -9)">
+                <rect x="15" y="16" class="st0" width="30" height="2"/>
+              </g>
+              <g transform="translate(-15 -3)">
+                <rect x="15" y="16" class="st0" width="30" height="2"/>
+              </g>
+        </svg>
+        <svg class="close-icon" x="0px" y="0px"
+          viewBox="0 0 30 17" height="17" width="30">
+            <g transform="translate(-15 -15)">
+              <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                35.8,16.5 37,17.7 	"/>
+            </g>
+        </svg>
+      </button>
+      <h1 class="line-1 anim-typewriter">
+        Hello ! Thanks for stopping by, I am
+        <span>
+          Sneha
+        </span>
+        
+      </h1>
+    </div>
+  
+    <section class="intro" id="home">
+      <div class="intro-left"> 
+        <img src="img/welcome-01.png" alt="Screen of laptop">
+      </div>
+      <div class="intro-middle">
+        <h2>Making it happen</h2>
+        <p>
+          Experienced Analyst in Deloitte USI Consulting Pvt Ltd with a demonstrated history of working in eCommerce industry. 
+          Skilled in technologies like Angular, React, Node JS, jQuery, JavaScript. 
+          Experienced in working with Hybris commerce, Microsoft Dynamics CRM, Vlocity CPQ, Oracle Commerce Cloud. 
+
+        </p>
+      </div>
+      <div class="intro-right">
+        <img src="img/welcome-02.png" alt="multiple systems" >
+      </div>
+    </section>
+  
+    <section class="about-me" id="about">
+      <img class="about-img" src="img/joe-portfolio.png" alt="pic of my portfolio">
+      <h1 class="about-title">
+        Sneha's Portfolio
+      </h1>
+      <h2 class="about-subtitle">Full Stack Developer</h2>
+      <div class="about-text">
+        <p>Hello, I am Sneha Kasuganti</p>
+        <p>I am passionate about building end-to-end products that transform social and technical systems into sustainable and scalable businesses. </p>
+        <p>As a software developer I strive for excellence and business efficiencies so that I can produce the best result for the 
+          organization through dedication and smart work.</p>
+      </div>
+    </section>
+  
+    <section class="portfolio" id="portfolio">
+      <h1>My Work</h1>
+      <div class="portfolio-items">
+        <!-- Portfolio Item number 1 -->
+        <figure class="portfolio-item featured">
+            <img src="img/portfolio_chat2.jpg" alt="Item 1">
+            <figcaption>
+              <h2 class="portfolio-title">Chat Room</h2>
+              <p class="portfolio-desc">An online Chat room built with NodeJs and SocketIO</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+            <!-- Portfolio modal 1 -->
+            <div class="portfolio-modal">
+              <button class="modal-close">
+                <svg  x="0px" y="0px"
+                viewBox="0 0 30 17" height="17" width="30">
+                  <g transform="translate(-15 -15)">
+                    <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                      35.8,16.5 37,17.7 	"/>
+                  </g>
+              </svg>
+              </button>
+              <div class="portfolio-header header-one">
+                <div class="portfolio-title-box">
+                  <h2 class="portfolio-title">Chat Room</h2>
+                  <p class="portfolio-subtitle">
+                    An online Chat room built with NodeJs and SocketIO
+                    <br>
+                    <a href="https://github.com/Sneha-KV/chat-app/blob/master/README.md" target="_blank" class="git-link">Source</a>
+                    <!-- <br>
+                    <a href="#" class="git-link">Application</a> -->
+                  </p>
+                </div>
+              </div> <!-- Portfolio header end-->
+              <div class="portfolio-content">
+                <p>A chat room application where anyone can create a room and text each other or add as many people as they want in the chat room. </p>
+                
+                <img src="img/portfolio_chat2.jpg" alt="" class="portfolio-full-width">
+                <p>The application can be used to send text messages, locations, jpeg, png, docx and pdf files to one another. This application was built using JavaScript, NodeJs, SocketIo and Express
+                 </p>
+                 <p> The server used to deploy the application is heroku</p>
+                
+                <!-- <img src="img/portfolio_chat.jpg" alt="" class="portfolio-pull-left"> -->
+                <p> The application needs a user name and room number to create a room or join an already existing room </p>
+                <p> The user is notified when a new user joins the chat room and when an existing user leaves the chat room. </p>
+                <p> I used Socket.IO since it enables real-time, bidirectional and event-based communication.
+                  It works on every platform, browser or device, focusing equally on reliability and speed. </p>
+                <!-- <p>Experienced in working with Hybris commerce, Microsoft Dynamics CRM, Vlocity CPQ, Oracle Commerce Cloud. </p>
+                
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio-pull-right">
+                
+                 -->
+              </div>
+            </div>
+            <!-- modal end -->
+        </figure>
+        <!-- Portfolio Item number 2 -->
+        <figure class="portfolio-item ">
+          <img src="img/portfolio_img.png" alt="Item 1">
+          <figcaption>
+            <h2 class="portfolio-title">My Portfolio</h2>
+            <p class="portfolio-desc">My portfolio website</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+        </figure>
+        <!-- Portfolio Item number 3 -->
+        <figure class="portfolio-item ">
+          <img src="img/portfolio_list.jpg" alt="Item 1">
+          <figcaption>
+            <h2 class="portfolio-title">Grocery Listing</h2>
+            <p class="portfolio-desc">An application to keep track of your shopping list</p>
+            <a href="https://github.com/Sneha-KV/Groceries/blob/main/README.md" class="portfolio-link">More info</a>
+          </figcaption>
+        </figure>
+        <!-- Portfolio Item number 4 -->
+        <figure class="portfolio-item ">
+          <img src="img/portfolio-04.jpg" alt="Item 1">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-desc">A short description</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+        </figure>
+        <!-- Portfolio Item number 5 -->
+        <figure class="portfolio-item ">
+          <img src="img/portfolio-05.jpg" alt="Item 1">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-desc">A short description</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  
+    <!-- contact me section -->
+    <section class="contact" id="contact">
+      <h1>Contact me</h1>
+      <form action="https://formspree.io/f/mbjqwjjg" method="POST">
+        <label  class="name">Name: 
+          <input type="text" id="name" name="name">
+        </label>
+        
+        <label  class="email">Email
+          <input type="text" id="email" name="_replyto">
+        </label>
+  
+        <label message="message" class="message">Message:
+          <textarea name="message" id="message" ></textarea>
+        </label>
+  
+        <input type="submit" value="SEND" class="button form-button">
+        
+      </form>
+    </section>
+    <footer>
+      <p>Follow me on Social Media</p>
+      <div class="social-icons">
+        <a class="social-link" href="https://www.linkedin.com/in/sneha-kasuganti/" target="_blank"><img src="img/linkedIn.png" alt="" class="social-icon"></a>
+        <!-- <img src="img/linkedIn.png" alt="" class="social-icon"> -->
+        <a class="social-link" href="#" target="_blank"><img src="img/instagram.svg" alt="" class="social-icon"></a>
+        <!-- <img src="img/github.svg" alt="" class="social-icon"> -->
+        <a class="social-link" href="https://github.com/Sneha-KV" target="_blank"> <img src="img/github.svg" alt="" class="social-icon"></a>
+      </div>
+      <p class="copyright">Copyright 2017 Sneha Portfolio</p>
+    </footer>
+  </div>
+  
+
+  <script src="js/nav.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+</html>
